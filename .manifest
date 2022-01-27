@@ -1,0 +1,12 @@
+
+name = "lenny"
+description = "Just some helper libs"
+version = "0.0.1"
+license = "MIT"
+
+dependencies = {
+}
+
+source = {
+  "src/**/*"
+}
