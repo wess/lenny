@@ -43,4 +43,3 @@ end
 function table.empty(tbl)
   return #tbl == 0
 end
-

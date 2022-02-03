@@ -8,14 +8,17 @@
 -- Copywrite (c) 2022 Wess.io
 --
 
-local table = require 'extensions.table'
-local switch = require 'functions.switch'
-local color = require 'types.color'
-local rect = require 'types.rect'
-local vector = require 'types.vector'
+
+local BASE = (...):sub(1, #(...) - 6) .. '/'
+
+require(BASE .. 'extensions.table')
+
+local switch = require(BASE .. '.functions.switch')
+local color = require(BASE .. '.types.color')
+local rect = require(BASE .. '.types.rect')
+local vector = require(BASE .. '.types.vector')
 
 return {
-  table = table,
   switch = switch,
   color = color,
   rect = rect,
